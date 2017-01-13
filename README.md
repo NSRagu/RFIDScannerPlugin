@@ -9,7 +9,7 @@ It enables two main features: Scan and Radar
 
 Scan makes RIFD tags reading, retrieving its EPCs.
 
-`success` and `fail` are callback functions. Success is passed an object with data and cancelled properties. Data is the json array with a list of epc tag data and cancelled is whether or not the user cancelled the scan.
+'success' and 'fail' are callback functions. Success is passed an object with data and cancelled properties. Data is the json array with a list of epc tag data and cancelled is whether or not the user cancelled the scan.
 
 A full example to scan could be:
 ...
